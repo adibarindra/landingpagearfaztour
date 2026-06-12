@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arfaz Tour | PT Arinta Faza Salatiga</title>
+    <style>
+        /* Pengaturan Dasar & Background dari Google Drive */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            /* Menggunakan gambar background dari Google Drive */
+            background-image: url('https://drive.google.com/uc?export=view&id=1lsqBcPYetFbAcKeGTma-AqOj6XElrDDd');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #f4f7f6; /* Warna cadangan jika gambar gagal dimuat */
+        }
+
+        /* Overlay gelap tipis agar konten tetap terbaca di atas background */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Efek gelap 40% */
+            z-index: -1;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            width: 100%;
+            max-width: 480px;
+            padding: 40px 20px;
+            text-align: center;
+            z-index: 1;
+        }
+
+        /* Logo Perusahaan dari Google Drive */
+        .logo {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            object-fit: cover;
+            display: block;
+            border: 4px solid white; /* Bingkai putih agar logo menonjol */
+        }
+
+        /* Kotak Profil Perusahaan */
+        .about-box {
+            background-color: rgba(255, 255, 255, 0.95); /* Sedikit transparan */
+            padding: 22px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            margin-bottom: 25px;
+        }
+        
+        .about-box h1 {
+            font-size: 1.3rem;
+            margin: 0 0 12px 0;
+            color: #0056b3;
+        }
+        
+        .about-box p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0;
+            color: #444;
+            text-align: justify;
+        }
+
+        /* Judul Kategori Tautan */
+        .section-title {
+            font-size: 0.95rem;
+            font-weight: bold;
+            text-align: left;
+            margin: 25px 0 10px 5px;
+            color: #ffffff; /* Warna teks putih agar kontras dengan background gelap */
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+        }
+
+        /* Tombol Tautan Umum */
+        .link-btn {
+            display: block;
+            background-color: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 12px;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .link-btn:hover {
+            background-color: #0056b3;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Desain Khusus untuk Portal Dokumentasi */
+        .link-btn.portal {
+            background: linear-gradient(135deg, #28a745, #1e7e34);
+            color: white;
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+            border: 2px solid white;
+        }
+
+        .link-btn.portal:hover {
+            background: linear-gradient(135deg, #218838, #19692c);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(40, 167, 69, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="container">
+        
+        <img src="https://drive.google.com/uc?export=view&id=14I4-_58czB8jgAovPQP2WLDoPWLY33m5" alt="Logo Arfaz Tour" class="logo">
+
+        <div class="about-box">
+            <h1>PT Arinta Faza Salatiga</h1>
+            <p>Berdiri sejak 2009 dengan nama CV Arinta Faza, lalu berganti menjadi PT Arinta Faza Salatiga sejak 2016. Bergerak di bidang jasa pelayanan wisata yang bermula dari dinas dan pemerintahan, kami siap melayani paket wisata, outdoor learning, family gathering, dan lain sebagainya.</p>
+        </div>
+
+        <div class="section-title">Dokumentasi Resmi</div>
+        <a href="https://adibarindra.github.io/arfaztour/" class="link-btn portal" target="_blank">
+            📸 Portal Dokumentasi Perjalanan
+        </a>
+
+        <div class="section-title">Layanan Admin (WhatsApp)</div>
+        <a href="https://wa.me/6281329080080" class="link-btn" target="_blank">
+            💬 Admin 1 (Bu Endras)
+        </a>
+        <a href="https://wa.me/6281393481414" class="link-btn" target="_blank">
+            💬 Admin 2 (Adib Arindra)
+        </a>
+
+        <div class="section-title">Ikuti Sosial Media Kami</div>
+        <a href="https://instagram.com/arfaztour" class="link-btn" target="_blank">
+            📸 Instagram @arfaztour
+        </a>
+        <a href="https://tiktok.com/@arfaztour" class="link-btn" target="_blank">
+            🎵 TikTok @arfaztour
+        </a>
+        <a href="https://www.youtube.com/@arfaztoursalatiga" class="link-btn" target="_blank">
+            🎥 YouTube Arfaz Tour Salatiga
+        </a>
+
+    </div>
+
+</body>
+</html>
